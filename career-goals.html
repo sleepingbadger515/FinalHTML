@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bridger Butler - Career Goals</title>
+</head>
+
+<body>
+
+  <header>
+  <h1>Career Goals</h1>
+  <p>Bridger Butler | Web Development Student</p>
+
+  <nav>
+    <ul>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="cover-letter.html">Cover Letter</a></li>
+      <li><a href="career-goals.html">Career Goals</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <main>
+
+  <!-- ===== Career Goals Text ===== -->
+  <section>
+    <h2>My Career Goals</h2>
+    <p>
+      [[Write a paragraph about the job/role you want and why.]]
+    </p>
+    <p>
+      [[Write a paragraph about what you’re doing now to reach that goal.]]
+    </p>
+  </section>
+
+  <hr>
+
+  <!-- ===== Media Section (Local Files) ===== -->
+  <section>
+    <h2>Media</h2>
+
+    <article>
+      <h3>Image</h3>
+      <img src="media/profile.jpg" alt="Professional headshot of Bridger Butler" width="220">
+      <p>
+        [[One sentence describing why this image relates to your goals.]]
+      </p>
+    </article>
+
+    <article>
+      <h3>Audio</h3>
+      <audio controls>
+        <source src="media/intro.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <p>
+        [[One sentence describing the audio clip.]]
+      </p>
+    </article>
+
+    <article>
+      <h3>Video</h3>
+      <video controls width="480">
+        <source src="media/demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p>
+        [[One sentence describing the video clip.]]
+      </p>
+    </article>
+
+  </section>
+
+  <hr>
+
+  <!-- ===== Contact Me Form (ZyBooks Viewer) ===== -->
+  <section>
+    <h2>Contact Me</h2>
+
+    <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+
+      <p>
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" name="firstName" required>
+      </p>
+
+      <p>
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" name="lastName" required>
+      </p>
+
+      <p>
+        <label for="companyName">Company Name:</label><br>
+        <input type="text" id="companyName" name="companyName">
+      </p>
+
+      <p>
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required>
+      </p>
+
+      <p>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone">
+      </p>
+
+      <p>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="35" required></textarea>
+      </p>
+
+      <fieldset>
+        <legend>Best Contact Time</legend>
+        <label><input type="radio" name="bestTime" value="am" required> a.m.</label><br>
+        <label><input type="radio" name="bestTime" value="pm"> p.m.</label><br>
+        <label><input type="radio" name="bestTime" value="anytime"> anytime</label>
+      </fieldset>
+
+      <p>
+        <label for="contactMethod">Preferred Contact Method:</label><br>
+        <select id="contactMethod" name="contactMethod" required>
+          <option value="">-- Select one --</option>
+          <option value="phone">Phone</option>
+          <option value="email">Email</option>
+          <option value="text">Text</option>
+        </select>
+      </p>
+
+      <p>
+        <input type="submit" value="Send">
+      </p>
+
+    </form>
+  </section>
+
+</main>
+
+  <footer>
+    <p>© 2025 Bridger Butler</p>
+  </footer>
+
+</body>
+</html>
