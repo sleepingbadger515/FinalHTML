@@ -43,6 +43,20 @@ header {
   border-bottom: 4px solid #0b1220;
 }
 
+/* Fix muted text inside header */
+header .muted {
+  color: #d1d5db; /* light gray */
+}
+
+/* Fix links inside header */
+header a {
+  color: #ffffff;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
 /* ===== Element selector ===== */
 main {
   padding: 16px;
