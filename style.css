@@ -1,1 +1,132 @@
+/* ===== Universal selector (required) ===== */
+* {
+  box-sizing: border-box;
+}
+
+/* ===== Element selector + typography + background (required) ===== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1a1a1a;
+  background-color: #f4f6fb;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+/* ===== Element selector ===== */
+h1, h2, h3 {
+  margin: 0 0 10px 0;
+}
+
+/* ===== Descendant selector (required) ===== */
+header nav a {
+  text-decoration: none;
+}
+
+/* ===== Pseudo-class selector (required) ===== */
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Class selector (required) ===== */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* ===== Element selector + padding/margin/border (required) ===== */
+header {
+  background-color: #111827;
+  color: white;
+  padding: 16px;
+  border-bottom: 4px solid #0b1220;
+}
+
+/* ===== Element selector ===== */
+main {
+  padding: 16px;
+}
+
+/* ===== Element selector ===== */
+section {
+  background-color: white;
+  padding: 16px;
+  margin: 16px 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+}
+
+/* ===== ID selector (required) ===== */
+#current-date {
+  margin-top: 8px;
+  font-style: italic;
+}
+
+/* ===== Class selector ===== */
+.muted {
+  color: #555;
+}
+
+/* ===== List-style properties (required) ===== */
+ul {
+  list-style-type: square;
+  padding-left: 22px;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 22px;
+}
+
+/* ===== Make nav list look cleaner ===== */
+header nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  gap: 12px;
+}
+
+header nav li {
+  margin: 0;
+}
+
+/* ===== Table styling (nice + readable) ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+th, td {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  text-align: left;
+}
+
+/* ===== Simple form styling ===== */
+label {
+  font-weight: bold;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+}
+
+/* ===== Footer styling ===== */
+footer {
+  text-align: center;
+  padding: 16px;
+  color: #333;
+}
 
